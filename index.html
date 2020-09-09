@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    table, th, td {
+    border: 1px solid black;
+  }
+  footer {
+        position: relative;
+        height: 100px;
+        width: 100%;
+        background-color: transparent;
+    }
+  </style>
+<body background="img/cool-background.png">
+    <h1>
+        Krõbe kana magushapus kastmes
+    </h1>
+    <p>Hiina kiirtoidurestoranides on see Sichuani roog väga populaarne - siin on aga selle roa veelgi maitsvam ja veidi tervislikum versioon.</p>
+    <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/kana.jpg" style="width:50%">
+              <div class="text">Pilt 1</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img/kana2.jpg" style="width:50%">
+              <div class="text">Pilt2</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/kana3.jpg" style="width:50%">
+              <div class="text">Pilt 3</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 4000); // Change image every 2 seconds
+            }
+            </script>
+            <hr style="width:50%;text-align:left;margin-left:0">
+    <ul>
+        <h1>Koostisosad:</h1>
+        <li>Kanafileed</li>
+        <li>Munavalge</li>
+        <li>Sojakaste</li>
+        <li>Küüslauguküünt</li>
+        <li>Õli</li>
+        <h2>Magushapu kaste:</h2>
+        <li>Seesamiõli</li>
+        <li>Päevalilleõli</li>
+        <li>Sibul</li>
+        <li>Erivärvilist paprikat</li>
+        <li>talisibulat (heledat osa)</li>
+        <li>Peenelt hakitud ingverijuurt</li>
+        <li>Ketšupit</li>
+        <li>Riisiäädikat</li>
+        <li>Suhkrut</li>
+        <li>Heledat sojakastet</li>
+        <li>Soola</li>
+        <li>Kanapuljongit</li>
+        <li>Maisitärklist</li>
+        <h2>Paneerimiseks:</h2>
+        <li>Kartulitärklist</li>
+        </ul>
+        <hr style="width:50%;text-align:left;margin-left:0">
+        <table style="width:100%">
+            <tr>
+            <th> Koostisosad</th>
+            <th>Kogus</th>
+        </tr>
+        <tr>
+            <td>Kanafileed</td>
+            <td>500-600g</td>
+            <tr>
+                <td>Munavalge</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                    <td>Küüslauguküünt</td>
+                    <td>2</td>
+            </tr>
+            <tr>
+                    <td>Sojakaste</td>
+                    <td>4 sl</td>
+            </tr>
+            <tr>
+                    <td>Seesamiõli</td>
+                    <td>2 sl</td>
+            </tr>
+            <tr>
+                    <td>Päevalilleõli</td>
+                    <td>2</td>
+            </tr>
+            <tr>
+                    <td>Sibul</td>
+                    <td>1</td>
+            </tr>
+            <tr>
+                    <td>Paprikat</td>
+                    <td>3 erineva värviga</td>
+            </tr>
+            <tr>
+                    <td>Talisibul</td>
+                    <td>5</td>
+            </tr>
+            <tr>
+                    <td>Ingverijuurt</td>
+                    <td>1 tl</td>
+            </tr>
+            <tr>
+                    <td>Ketšup</td>
+                    <td>10 sl</td>
+            </tr>
+            <tr>
+                    <td>Riisiäädikat</td>
+                    <td>3-4 sl</td>
+            </tr>
+            <tr>
+                    <td>Suhkrut</td>
+                    <td>4 sl</td>
+            </tr>
+            <tr>
+                    <td>Sojakaste (hele)</td>
+                    <td>5 sl</td>
+            </tr>
+            <tr>
+                    <td>Sool</td>
+                    <td>1 tl</td>
+            </tr>
+            <tr>
+                    <td>Kanapuljongit</td>
+                    <td>5 dl</td>
+            </tr>
+            <tr>
+                    <td>Maisitärklis</td>
+                    <td>2 sl</td>
+            </tr>
+            <tr>
+                    <td>Kartulitärklis</td>
+                    <td>100-150g</td>
+            </tr>
+        </table>
+        <h1>Valmistamine:</h1>
+        <p >
+            
+                Klopi munavalged, peenestatud küüslauk ja sojakaste* omavahel. Kalla kanatükkidele ja lase kanal vähemalt tund aega maitsestuda.
+                <p></p>
+                Valmista samal ajal kaste. Koori sibul, lõika 1 cm tükkideks. Lõika paprikad ja talisibulad õhukesteks ribadeks.
+                <p></p>
+                Kuumuta sügavas pannis õli.
+                <p></p>
+                Võta kanatükid marinaadist välja, veereta neid hoolikalt kartulijahus**, üleliigne jahu raputa maha.
+                <p></p>
+                Kastme valmistamiseks kuumuta vokk- või praepannil seesami- ja päevalilleõli. Prae sibulaid mõni minut, kuni need pehmenema hakkavad.
+                <p></p>
+                Lisa ingver, talisibul ja paprika, prae veel 2 minutit.
+                <p></p>
+                Sega juurde ketšup, äädikas, sojakaste, suhkur ja maisitärklis. Kalla pannile kanapuljong, maitsesta soolaga ja lase vaikselt podisedes pakseneda.
+                <p></p>
+                Vahepeal prae kanatükke kuumas õlis umbes 10 minutit, kuni need on pruunistunud ja krõbedad.
+                <p></p>
+                Vahetult enne serveerimist sega kanatükid magushapu kastme sisse.
+                <p></p>
+                Lisandiks sobib õhuline basmatiriis.                
+        </p>
+
+        <p style="font-size:30px"><a href="https://nami-nami.ee/retsept/10880/kana_magushapus_kastmes">Retsepti allikas</a></p>
+        
+        <footer style="text-align:center">
+                <p>© Marten Eerik Kärner 2020</p>
+            </footer>
+    
+
+</body>
+</html>
